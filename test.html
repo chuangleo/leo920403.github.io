@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介紹</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-6">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-800">莊松翰</h1>
+            <p class="text-lg text-gray-600 mt-2">自我介紹</p>
+        </header>
+
+        <section class="mb-6 flex flex-col md:flex-row items-start">
+            <div class="w-full md:w-1/2 bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">關於我</h2>
+                <p class="text-gray-700">
+                    我是莊松翰，彰化人。大學就讀中原大學資訊工程學系，大學專題內容和自動建圖相關。鄭雅賢和WINTER的老公。
+                </p>
+            </div>
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 md:ml-4">
+                <img src="1.jpg" alt="關於我照片" class="w-full h-auto rounded-lg shadow-md">
+            </div>
+        </section>
+
+        <!-- “技能”區塊：文字左邊（白色一半），照片右邊（淺灰背景） -->
+        <section class="mb-6 flex flex-col md:flex-row items-start">
+            <!-- 文字部分（左邊，帶白色背景） -->
+            <div class="w-full md:w-1/2 bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">技能</h2>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>[技能1，例如：HTML/CSS/JavaScript]</li>
+                    <li>[技能2，例如：Python程式設計]</li>
+                    <li>[技能3，例如：UI/UX設計]</li>
+                </ul>
+            </div>
+            <!-- 照片部分（右邊，無背景，顯示body的bg-gray-100） -->
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 md:ml-4">
+                <img src="https://via.placeholder.com/500x400" alt="技能照片" class="w-full h-auto rounded-lg shadow-md">
+                <!-- 替換 src 為您的實際照片URL，例如：src="skills-photo.jpg" -->
+            </div>
+        </section>
+
+        <!-- “聯繫方式”區塊：文字左邊（白色一半），照片右邊（淺灰背景） -->
+        <section class="mb-6 flex flex-col md:flex-row items-start">
+            <!-- 文字部分（左邊，帶白色背景） -->
+            <div class="w-full md:w-1/2 bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">聯繫方式</h2>
+                <p class="text-gray-700">
+                    電子郵件: <a href="mailto:[你的電子郵件]" class="text-blue-600 hover:underline">[你的電子郵件]</a><br>
+                    LinkedIn: <a href="[你的LinkedIn連結]" class="text-blue-600 hover:underline">[你的LinkedIn個人資料]</a><br>
+                    GitHub: <a href="[你的GitHub連結]" class="text-blue-600 hover:underline">[你的GitHub個人資料]</a>
+                </p>
+            </div>
+            <!-- 照片部分（右邊，無背景，顯示body的bg-gray-100） -->
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 md:ml-4">
+                <img src="https://via.placeholder.com/600x300" alt="聯繫方式照片" class="w-full h-auto rounded-lg shadow-md">
+                <!-- 替換 src 為您的實際照片URL，例如：src="contact-photo.jpg" -->
+            </div>
+        </section>
+
+        <footer class="text-center mt-8 text-gray-600">
+            <p>&copy; 2025 [你的姓名]. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
